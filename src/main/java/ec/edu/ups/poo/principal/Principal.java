@@ -11,7 +11,7 @@ public class Principal {
         Scanner leer = new Scanner(System.in);
         //System.out.println("COMENTARIO");CAMBIO DE MATEO MOLINA
         //System.out.println();Segundo comentario de Mateo Molina
-        //System.out.println();Tercer comentario de Mateo Molina
+        //System.out.println();Tercer comentario de Mateo Molina xd
         System.out.print("Ingrese el número de personas: ");
         int numPersonas = leer.nextInt();
         System.out.print("Ingrese el número de familiares: ");
