@@ -1,5 +1,4 @@
 package ec.edu.ups.poo.clases;
-
 import java.util.GregorianCalendar;
 import java.util.Calendar;
 
@@ -46,7 +45,6 @@ public class Familiar extends Persona {
         int anioNacimiento = fechaDeNacimiento.get(Calendar.YEAR);
         int mesNacimiento = fechaDeNacimiento.get(Calendar.MONTH);
         int diaNacimiento = fechaDeNacimiento.get(Calendar.DAY_OF_MONTH);
-
         int edad = anio - anioNacimiento;
 
         if (mes < mesNacimiento || (mes == mesNacimiento && dia < diaNacimiento)) {
